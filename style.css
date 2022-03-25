@@ -44,6 +44,11 @@ a {
 
 .header-link {
   font-size: 18px;
+  margin-left: 24px;
+}
+.header-link :hover {
+  color: var(--primaryWhite);
+  font-weight: bold;
 }
 
 .left-content {
