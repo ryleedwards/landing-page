@@ -101,3 +101,57 @@ button:hover {
   background-color: var(--blueHover);
   cursor: pointer;
 }
+
+/* end banner formatting */
+
+/* begin main content / square formatting */
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-title {
+  font-size: 36px;
+  margin: 36px 0;
+}
+
+.square {
+  border: solid 4px var(--blue);
+  width: 128px;
+  height: 128px;
+  border-radius: 8px;
+}
+
+.horizontal-square-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  gap: 48px;
+  margin: 0 0 96px 0;
+}
+
+.square-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 128px;
+}
+
+/* TODO fix this subtext alignment behavior. . . doesn't match what's on instructions*/
+
+.subtext {
+  text-align: center;
+}
+
+/* begin quote section formatting */
+
+.container-quote {
+  background-color: var(--secondaryWhite);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 96px;
+}
