@@ -30,6 +30,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-content: center;
+  padding-top: 36px;
 }
 
 .logo-text {
@@ -183,15 +184,17 @@ button:hover {
 
 .inner-action {
   background-color: var(--blue);
-  width: 50vw;
+  width: 35vw;
   padding: 32px;
   border-radius: 8px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .inner-action h4 {
   color: var(--primaryWhite);
+  font-size: 24px;
 }
 
 .inner-action p {
@@ -201,8 +204,19 @@ button:hover {
 .sign-up-action {
   margin-left: 64px;
   border: solid 2px var(--primaryWhite);
+  font-size: 18px;
 }
 
 /* end call to action */
 
 /* begin footer */
+
+.footer {
+  background-color: var(--darkGray);
+  width: 100vw;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondaryWhite);
+}
