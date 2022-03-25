@@ -151,7 +151,25 @@ button:hover {
 .container-quote {
   background-color: var(--secondaryWhite);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 96px;
+  font-size: 24px;
 }
+
+.container-quote p {
+  font-size: 36px;
+  width: 50vw;
+  color: var(--darkGray);
+}
+
+.container-quote h4 {
+  display: flex;
+  justify-content: flex-end;
+  width: 50vw;
+}
+
+/* end quote section */
+
+/* begin call to action */
