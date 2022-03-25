@@ -13,7 +13,36 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: var(--secondaryWhite);
+}
+
 #img-city-skyline {
   width: 224px;
   height: 336px;
+}
+
+.header {
+  background-color: var(--darkBlue);
+  color: var(--primaryWhite);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.logo-text {
+  margin: 32px;
+}
+
+.header-links {
+  list-style-type: none;
+  color: var(--secondaryWhite);
+  display: flex;
+  align-items: center;
+}
+
+.header-link {
+  margin: 32px;
+  font-size: 18px;
 }
