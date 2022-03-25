@@ -18,9 +18,7 @@ a {
   color: var(--secondaryWhite);
 }
 
-#img-city-skyline {
-  width: 224px;
-  height: 336px;
+#img-cloud {
   padding: 36px;
 }
 
