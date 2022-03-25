@@ -25,14 +25,14 @@ a {
 
 .header {
   background-color: var(--darkBlue);
-  color: var(--primaryWhite);
   display: flex;
   justify-content: space-between;
   align-content: center;
 }
 
 .logo-text {
-  margin: 32px;
+  font-size: 24px;
+  color: var(--primaryWhite);
 }
 
 .header-links {
@@ -43,6 +43,12 @@ a {
 }
 
 .header-link {
-  margin: 32px;
   font-size: 18px;
+}
+
+.left-content {
+  margin-left: 10vw;
+}
+.right-content {
+  margin-right: 10vw;
 }
