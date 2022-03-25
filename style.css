@@ -21,7 +21,10 @@ a {
 #img-city-skyline {
   width: 224px;
   height: 336px;
+  padding: 36px;
 }
+
+/* Begin header formatting */
 
 .header {
   background-color: var(--darkBlue);
@@ -56,4 +59,40 @@ a {
 }
 .right-content {
   margin-right: 10vw;
+}
+
+/* End header formatting */
+
+/* Begin banner formatting */
+
+.container-banner {
+  background-color: var(--darkBlue);
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 33%;
+}
+
+.awesome-msg {
+  font-size: 48px;
+  font-weight: bolder;
+  color: var(--primaryWhite);
+}
+.subtext-msg {
+  font-size: 18px;
+  color: var(--secondaryWhite);
+}
+
+button {
+  width: 96px;
+  height: 32px;
+  border-radius: 8px;
+  color: var(--primaryWhite);
+  background-color: var(--blue);
+  font-weight: bold;
 }
