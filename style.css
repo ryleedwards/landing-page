@@ -5,3 +5,15 @@
   --blue: #3882f6;
   --darkGray: #1f2937;
 }
+
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#img-city-skyline {
+  width: 224px;
+  height: 336px;
+}
