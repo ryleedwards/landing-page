@@ -3,6 +3,7 @@
   --primaryWhite: #f9faf8;
   --secondaryWhite: #e5e7eb;
   --blue: #3882f6;
+  --blueHover: #245097;
   --darkGray: #1f2937;
 }
 
@@ -74,6 +75,7 @@ a {
   flex-direction: column;
   justify-content: center;
   max-width: 33%;
+  gap: 16px;
 }
 
 .awesome-msg {
@@ -93,4 +95,9 @@ button {
   color: var(--primaryWhite);
   background-color: var(--blue);
   font-weight: bold;
+}
+
+button:hover {
+  background-color: var(--blueHover);
+  cursor: pointer;
 }
