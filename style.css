@@ -173,3 +173,36 @@ button:hover {
 /* end quote section */
 
 /* begin call to action */
+
+.container-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 64px;
+}
+
+.inner-action {
+  background-color: var(--blue);
+  width: 50vw;
+  padding: 32px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.inner-action h4 {
+  color: var(--primaryWhite);
+}
+
+.inner-action p {
+  color: var(--secondaryWhite);
+}
+
+.sign-up-action {
+  margin-left: 64px;
+  border: solid 2px var(--primaryWhite);
+}
+
+/* end call to action */
+
+/* begin footer */
